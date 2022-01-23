@@ -1,0 +1,20 @@
+.header-container{
+    width :100%
+}
+.nav-bar .nav-ul{
+    display: flex;
+    padding-right: 6%;
+    align-items: center;
+    flex-direction: column;
+    line-height: 200%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.nav-bar .nav-ul li a{
+    color: black;
+}
+.nav-bar .nav-ul li a:hover{
+
+    color: rgb(8, 8, 131);
+}
+

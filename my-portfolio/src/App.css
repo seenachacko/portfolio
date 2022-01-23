@@ -1,0 +1,66 @@
+body {
+  font-family: "Space Mono", monospace;
+ 
+}
+
+.icon {
+  font-size: 30px;
+  color: black;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+.main-section {
+  float: left;
+  position: fixed;
+}
+.rendersection {
+  float: right;
+  margin-left: 30%;
+  padding-top: 2%;
+  /* border: 2px solid black; */
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(7, 6, 6, 0.2);
+  height: 93vh;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  margin: 3%;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  position: fixed;
+  height: 90%;
+  box-shadow: 0 4px 8px 0 rgba(7, 6, 6, 0.2);
+  transition: 0.3s;
+}
+.picture {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5%;
+  height: 160px;
+  margin-top: 5px;
+  width: 130px;
+}
+.description {
+  text-align: center;
+  line-height: 1;
+}
+.contact {
+  align-self: center;
+}
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  list-style: none;
+  padding-right: 20%;
+}
+.contact ul li {
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
