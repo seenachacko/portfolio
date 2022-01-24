@@ -9,11 +9,14 @@ import tre from "../assets/tre.png";
 import vsc from "../assets/vsc.png";
 import JsSymbol from "../assets/jsSymbol.png";
 import zep from "../assets/zepl.png";
-import "./Skills.css";
+import {HiBadgeCheck} from "react-icons/hi";
+import { skills } from "../data";
+//import "./Skills.css";
 function Skills() {
   return (
       <div className="skills-container">
-      <h3 className="skill-heading">Skills</h3>
+        <h3 className="skill-heading">Skills</h3>
+      {/* 
     <div className="logo-container">
         
       <div>
@@ -47,7 +50,17 @@ function Skills() {
       <div>
         <img src={tre} alt="trello" width={100} />
       </div>
-    </div>
+    </div> */}
+    <ul className="skill-list">
+    {skills.map((skill)=>{
+      return(
+        <>
+        <li> <HiBadgeCheck></HiBadgeCheck> {skill.title} - <b>{skill.technology}</b></li><br></br>
+        </>
+        
+      )
+    })}
+    </ul>
     </div>
   );
 }

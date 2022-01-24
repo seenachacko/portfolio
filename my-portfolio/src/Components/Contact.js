@@ -1,6 +1,6 @@
 import React from "react";
 import meet from "../assets/cm.png";
-import "./Contact.css";
+//import "./Contact.css";
 function Contact() {
     return(
      <>

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import Main from "./Components/Main";
+//import Main from "./Components/Main";
+import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
@@ -11,9 +12,10 @@ import Contact from "./Components/Contact";
 export default function App() {
   return (
     <div className="app-container">
-      <section className="main-section">
+      {/* <section className="main-section">
         <Main />
-      </section>
+      </section> */}
+      <Header></Header>
       <div className="rendersection">
         <Routes>
           <Route path="/" element={<Home />} />

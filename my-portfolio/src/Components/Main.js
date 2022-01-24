@@ -6,14 +6,14 @@ import { HiOutlineMail } from "react-icons/hi";
 import { RiPhoneLine } from "react-icons/ri";
 import me from "../assets/me.png";
 import NavBar from "./Navbar/NavBar";
-import "./Main.css";
+//import "./Main.css";
 function Main() {
   return (
     <div className="main-container">
       {/* <img className="picture" src={me} alt="seena-avathar"></img> */}
       <div className="description">
-        <h1>Seena Chacko</h1>
-        <h3>Front-end Developer</h3>
+        <label><b>Seena Chacko</b></label><br></br>
+        <label>Front-end Developer</label>
         <p><HiOutlineMail /> seenachacko119@gmail.com</p>
          <p> <RiPhoneLine /> +45 50202119</p>  
       </div>
@@ -42,8 +42,6 @@ function Main() {
           </li> */}
         </ul>
       </div>
-     
-      <NavBar />
     </div>
   );
 }

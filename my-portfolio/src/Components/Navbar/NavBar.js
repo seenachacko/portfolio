@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import './NavBar.css'
+//import './NavBar.css'
 
 
 function NavBar() {
@@ -12,8 +12,8 @@ function NavBar() {
         <li> <Link style={{ textDecoration: 'none' }}to="/experience"> Experience</Link></li>
         <li> <Link style={{ textDecoration: 'none' }}to="/skills"> skills</Link></li>
         <li> <Link style={{ textDecoration: 'none' }}to="/education"> Education</Link></li>
-        <li> <Link style={{ textDecoration: 'none' }}to="/project">project</Link></li>
-        <li> <Link style={{ textDecoration: 'none' }}to="/contact"> contact</Link></li>
+        <li> <Link style={{ textDecoration: 'none' }}to="/project">Project</Link></li>
+        <li> <Link style={{ textDecoration: 'none' }}to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>

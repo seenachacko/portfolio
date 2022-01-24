@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../assets/my.png";
-import './Home.css';
+//import './Home.css';
 const Home = () => {
   return (
     <div className="home-container">
