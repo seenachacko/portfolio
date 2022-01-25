@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <header className="header-container">
      <nav className="nav-bar" >
         <ul className="nav-ul">
         <li><Link style={{ textDecoration: 'none' }}to="/"> Home</Link></li>
@@ -16,7 +15,6 @@ function NavBar() {
         <li> <Link style={{ textDecoration: 'none' }}to="/contact">Contact</Link></li>
         </ul>
       </nav>
-    </header>
   );
 };
 

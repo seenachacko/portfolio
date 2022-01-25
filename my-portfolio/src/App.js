@@ -4,6 +4,7 @@ import "./App.css";
 //import Main from "./Components/Main";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
+import NavBar from "./Components/Navbar/NavBar";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
@@ -15,7 +16,7 @@ export default function App() {
       {/* <section className="main-section">
         <Main />
       </section> */}
-      <Header></Header>
+      <NavBar></NavBar>
       <div className="rendersection">
         <Routes>
           <Route path="/" element={<Home />} />

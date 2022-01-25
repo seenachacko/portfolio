@@ -5,7 +5,7 @@ import { experiences } from "../data";
 function Experience() {
   return (
     <div className="exp-container">
-      <h3 className="exp-heading">Experience Summary</h3>
+      <h4 className="exp-heading">Experience Summary</h4>
       <ul>
         {experiences.map((experience) => {
           return (

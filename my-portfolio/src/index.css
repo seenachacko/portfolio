@@ -5,3 +5,6 @@
   letter-spacing: 1px;
   cursor: pointer;
 }
+ul {
+  list-style: none;
+}

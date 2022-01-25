@@ -1,10 +1,13 @@
 import React from "react";
 import NavBar from "../Components/Navbar/NavBar";
-import Main from "../Components/Main";
+//import Main from "../Components/Main";
 function Header() {
     return(
         <div className="header-container">
-        <Main></Main>
+        <div><label><b>Seena Chacko</b></label><br></br>
+        <label>Front-end Developer</label>
+        </div>
+        
         <NavBar></NavBar>
     </div>
 

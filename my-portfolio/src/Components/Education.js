@@ -1,6 +1,6 @@
 import React from "react";
 import { educations } from "../data";
-import "./Experience.css";
+//import "./Experience.css";
 function Education() {
   return (
     <div className="edu-container">
@@ -10,13 +10,12 @@ function Education() {
           return (
             <>
               <li>
-                <h5>
+                <h4>
                   {education.period} | {education.title} | {education.place}
-                </h5>
+                </h4>
 
                 {education.Subject && (
                   <p className="edu-description">
-                    {" "}
                     Subject include: {education.Subject}
                   </p>
                 )}
