@@ -9,6 +9,8 @@ import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Projects from "./Components/Project";
+
 
 export default function App() {
   return (
@@ -23,8 +25,8 @@ export default function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/project" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/users" element={<Users />} />
           {/* <Route path="/" element={}/> */}
         </Routes>
       </div>
@@ -35,10 +37,3 @@ export default function App() {
   );
 }
 
-// function About() {
-//   return <h2>About</h2>;
-// }
-
-function Users() {
-  return <h2>Users</h2>;
-}
