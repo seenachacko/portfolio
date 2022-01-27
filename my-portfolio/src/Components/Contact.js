@@ -1,6 +1,4 @@
 import React from "react";
-import Axios from "axios";
-import FileDownload from "js-file-download";
 import meet from "../assets/mc.png";
 //import "./Contact.css";
 function Contact() {
